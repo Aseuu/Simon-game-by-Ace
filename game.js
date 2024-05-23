@@ -13,6 +13,15 @@ $(document).keypress(function() {
     nextSequence();
     started = true;
   }
+
+  $("#start").click(function() {
+  if (!started) {
+    $("#level-title").text("Level " + level);
+    nextSequence();
+    started = true;
+  }
+})
+  
 });
 
 $(".btn").click(function() {
