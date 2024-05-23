@@ -21,7 +21,7 @@ $(".start").click(function() {
     nextSequence();
     started = true;
   }
-})
+});
 
 $(".btn").click(function() {
 
